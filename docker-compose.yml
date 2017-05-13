@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: username/repository:tag
+    image: marcelogalmor/started:get_started_docker_python_flask_redis
     deploy:
       replicas: 5
       resources:
